@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.raininforest"
-version = "0.0.10"
+version = "0.0.11"
 
 repositories {
     mavenCentral()
@@ -40,7 +40,7 @@ tasks {
     patchPluginXml {
         version.set("${project.version}")
         sinceBuild.set("231")
-        untilBuild.set("241.*")
+        untilBuild.set("243.*")
     }
 
 //    runIde {
